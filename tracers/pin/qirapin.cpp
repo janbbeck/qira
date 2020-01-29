@@ -3,7 +3,7 @@
 #ifdef TARGET_WINDOWS
 #define _CRT_RAND_S
 #endif
-
+using namespace std;
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
