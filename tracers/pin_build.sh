@@ -5,8 +5,8 @@ cd "$(dirname "$0")/pin"
 case "`uname`" in
 Linux)
   if test -d pin-latest; then true; else
-    curl -L https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.7-97619-g0d0c92f4f-gcc-linux.tar.gz | tar xz
-    ln -s pin-3.7-97619-g0d0c92f4f-gcc-linux pin-latest
+    curl -L https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.11-97998-g7ecce2dac-gcc-linux.tar.gz | tar xz
+    ln -s pin-3.11-97998-g7ecce2dac-gcc-linux pin-latest
   fi
 
   # pin build deps, good?
